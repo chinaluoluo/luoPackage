@@ -1,14 +1,24 @@
 {
-  "name": "package-chinaluoluo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "scroll-select-l",
+  "version": "0.1.1",
+  "private": false,
+  "main":"lib/luoUI.umd.min.js",
+  "keywords": [
+    "scrollSelect"
+  ],
+  "files": [
+    "lib",
+    "package"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib:scrollSelect": "vue-cli-service build --target lib --name luoPackage --dest lib src/package/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"

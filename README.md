@@ -1,24 +1,13 @@
-# package-chinaluoluo
+## 简述
+#### scrollSelect
+##### 示例
 
-## Project setup
-```
-npm install
-```
+##### 参数:
+- joiner: Array 展示时的连接符，如:[':']
+- disabled: Boolean 禁用
+- placeholder: String placeholder
+- columns: Array 每一列的数据， 如:[[1, 2, 3], [4, 5, 6]]
+- v-model: 绑定的值
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##### 方法:
+- blur: function blur
