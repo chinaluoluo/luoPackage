@@ -1,7 +1,7 @@
 ## 简述
 #### scrollSelect
 ##### 示例
-![scrollSelect]()
+![scrollSelect](https://github.com/chinaluoluo/luoPackage/blob/master/images/scroll-select.png)
 ##### 参数:
 - joiner: Array 展示时的连接符，如:[':']
 - disabled: Boolean 禁用
