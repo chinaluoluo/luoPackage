@@ -1,7 +1,7 @@
 ## 简述
 #### scrollSelect
 ##### 示例
-
+![scrollSelect]()
 ##### 参数:
 - joiner: Array 展示时的连接符，如:[':']
 - disabled: Boolean 禁用
